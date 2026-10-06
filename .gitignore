@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (interactive HTML charts, exported figures, archives)
+*.html
+*.png
+*.pdf
+*.zip
+
+# Data: only the raw CSV is versioned
+data/*
+!data/fifa_players.csv
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
